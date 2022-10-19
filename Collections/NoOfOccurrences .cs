@@ -5,52 +5,71 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Collections
-{
-    // Count number of occurrences of a number in an array [1,2,3,1,3,4,5]
+//namespace Collections
+//{
+//    // Count number of occurrences of a number in an array [1,2,3,1,3,4,5]
 
-    public class NoOfOccurrences
-    {
-        static void Main(string[] args)
-        {
-            int[] arr = new int[] { 1, 2, 3, 1, 3, 4, 5 };
-            int one = 1;
-            int two = 2;
-            int three = 3;
-            int four = 4;
-            int five = 5;
-            int count = 0;
+//    public class NoOfOccurrences
+//    {
+        
+//        static void Main(string[] args)
+//        {
+//            int[] arr = new int[7];
+//            int[] counter = new int[7];
 
-            for (int i = 0;i<arr.Length;i++)
-            {
-                if (arr[i] == one)
-                {
-                    count++;
-                }
-                else if (arr[i] == two)
-                {
-                    count++;
-                }
-                else if (arr[i] == three)
-                {
-                    count++;
-                }
-               else if (arr[i] == four)
-                {
-                    count++;
-                }
-                if (arr[i] == five)
-                {
-                    count++;
-                }
-            }
-            Console.WriteLine($"The number {one} appears {count} in array");
-            Console.WriteLine($"The number {two} appears {count} in array");
-            Console.WriteLine($"The number {three} appears {count} in array");
-            Console.WriteLine($"The number {four} appears {count} in array");
-            Console.WriteLine($"The number {five} appears {count} in array");
+//            Console.WriteLine("Enter elements");
+//            for (int i = 0; i < arr.Length; i++)
+//            {
+//                arr[i] = Convert.ToInt32(Console.ReadLine());
+//                counter[i] = -1;
+//            }
+
+//            for (int i = 0; i < arr.Length; i++)
+//            {
+//                if (counter[i] == 0)
+//                    continue;
+
+//                counter[i] = 1;
+
+//                for (int j = i + 1; j < arr.Length; j++)
+//                {
+//                    if (arr[i] == arr[j])
+//                    {
+//                        counter[i]++;
+//                        counter[j] = 0;
+//                    }
+//                }
+//            }
+//            for (int i = 0; i < arr.Length; i++)
+//            {
+//                if (counter[i] == 0)
+//                    continue;
+
+//                Console.WriteLine($"{arr[i]} count is {counter[i]}");
+//            }
+//        }
 
 
-        }
-    }
-}
+
+
+//        //static void Main(string[] args)  // For Single 1 digit.
+//        //{
+//        //    int[] arr = new int[] { 1, 2, 3, 1, 3, 4, 5 };
+//        //    int one = 1;
+
+//        //    int count = 0;
+
+//        //    for (int i = 0;i<arr.Length;i++)
+//        //    {
+//        //        if (arr[i] == one)
+//        //        {
+//        //            count++;
+//        //        }
+
+//        //    }                       
+
+//        //    Console.WriteLine($"The number {one} appears {count} in array");
+
+//        //}
+//    }
+//}

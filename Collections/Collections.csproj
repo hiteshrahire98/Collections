@@ -46,12 +46,15 @@
     <Compile Include="2DArray.cs" />
     <Compile Include="AlternateNo.cs" />
     <Compile Include="Array.cs" />
+    <Compile Include="ArrayMethods.cs" />
+    <Compile Include="JaggedArray.cs" />
     <Compile Include="MaximumNo.cs" />
     <Compile Include="MinimumNo.cs" />
     <Compile Include="NoOfOccurrences .cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseArray.cs" />
+    <Compile Include="StringClasses.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
