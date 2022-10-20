@@ -49,7 +49,9 @@
     <Compile Include="ArrayMethods.cs" />
     <Compile Include="JaggedArray.cs" />
     <Compile Include="MaximumNo.cs" />
+    <Compile Include="MaximumNo2D.cs" />
     <Compile Include="MinimumNo.cs" />
+    <Compile Include="MinimumNo2D.cs" />
     <Compile Include="NoOfOccurrences .cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

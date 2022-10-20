@@ -18,7 +18,7 @@ using System.Threading.Tasks;
 //            str2.Trim(); // remove space from L & R side
 //            str2.TrimStart();// remove space from left side
 //            str2.TrimEnd();// remove space from right side
-//            Console.WriteLine(str2);    
+//            Console.WriteLine(str2);
 
 //            Console.WriteLine(str1.Length);
 //            Console.WriteLine(str2.Length);

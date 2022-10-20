@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 //        static void Main(string[] args)
 
 //        {
-//            /*
+
 //            // 2D array syntax
 //            // Assign value for array...
 
@@ -21,7 +21,7 @@ using System.Threading.Tasks;
 //                   { 50,60,70,80},
 //                   { 90,100,110,120}
 //            };
-          
+
 //            for (int i = 0; i < data.GetLength(0); i++)   // 0--> row size
 //            {
 //                for (int j = 0; j < data.GetLength(1); j++) // 1 --> col size
@@ -30,14 +30,14 @@ using System.Threading.Tasks;
 //                }
 //                Console.WriteLine();
 //            }
-//            */
+
 
 //            //foreach (int item in data)
 //            //{
 //            //    Console.WriteLine(item);
 //            //}
 
-
+//           /*
 //            // data enter to user....
 //            int[,] data = new int[3, 4];
 //            for (int i = 0; i < data.GetLength(0); i++)   // 0--> row size
@@ -63,11 +63,10 @@ using System.Threading.Tasks;
 //            //    Console.WriteLine(N);
 //            //}
 
+//            */
 //        }
-
-
-
-
-
+            
 //    }
+
 //}
+   
