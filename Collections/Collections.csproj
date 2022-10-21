@@ -49,6 +49,10 @@
     <Compile Include="ArrayListDemo.cs" />
     <Compile Include="ArrayListProperties.cs" />
     <Compile Include="ArrayMethods.cs" />
+    <Compile Include="GenericDictionary.cs" />
+    <Compile Include="GenericList.cs" />
+    <Compile Include="GenericQueue.cs" />
+    <Compile Include="GenericStack.cs" />
     <Compile Include="JaggedArray.cs" />
     <Compile Include="MaximumNo.cs" />
     <Compile Include="MaximumNo2D.cs" />
