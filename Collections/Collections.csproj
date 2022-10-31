@@ -49,8 +49,10 @@
     <Compile Include="ArrayListDemo.cs" />
     <Compile Include="ArrayListProperties.cs" />
     <Compile Include="ArrayMethods.cs" />
+    <Compile Include="GenericClass.cs" />
     <Compile Include="GenericDictionary.cs" />
     <Compile Include="GenericList.cs" />
+    <Compile Include="GenericMethod.cs" />
     <Compile Include="GenericQueue.cs" />
     <Compile Include="GenericStack.cs" />
     <Compile Include="JaggedArray.cs" />
